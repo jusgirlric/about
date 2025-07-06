@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About</title>
+<link rel="stylesheet" href="main.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="container">
+		<header><h1 class="delius-regular" title="Questions"><b>Questions or Concerns?</b></h1></header>
+	<section>
+		<nav>
+			<ul>
+				<li><a href="corgi_mix.html" target="_blank">Home</a></li>
+		<li><a href="project_1.html" target="_blank">About</a></li>
+			</ul>
+			
+				</nav>
+			<article class="top"><img src="images/Lou_7.jpg" alt="raise your paw" style="width:130px"><h3><i>Yes, you with your paw raised</i></h3>
+			Why wait to be called on? Please fill out the form below to share any questions, concerns, comments or content suggestions. Even if you just want to say hello, we'd love to hear from you. &#128578
+			</article>
+			
+ 	<article class="bottom">
+		<h2>A Special Message for You</h2>
+		
+<audio controls>
+ 
+  <source src="A Special Message.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+		<canvas id="myCanvas" width="200" height="50">
+Your browser does not support the HTML canvas tag.</canvas>
+
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+var grd = ctx.createRadialGradient(75, 50, 5, 90, 60, 100);
+grd.addColorStop(0, "darkorange");
+grd.addColorStop(1, "white");
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+	
+</script>
+	 </article>
+		
+		</section>
+		<nav><ol></ol></nav>
+	</div>
+	<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="email" id="email" name="email" placeholder="Your email...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="comment">Comment</label>
+    </div>
+    <div class="col-75">
+      <textarea id="" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+    </div>
+  </div>
+  <br>
+    <div>
+		  <input type="checkbox" id="response" name="response" value="Response">
+  <label for="response"> I would like to receive a response via email</label><br>
+  </div>
+  <div class="row">
+    <input type="button" onclick="alert('Thank you!')" value="Submit">
+  </div>
+  </form>
+</div>
+<footer>Copyright &copy; 2025 Ricci Dennison</footer>
+</body>
+</html>
